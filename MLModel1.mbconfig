@@ -1,0 +1,247 @@
+﻿{
+  "TrainingTime": 100,
+  "Scenario": "Classification",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "C:\\Users\\Tanno\\Downloads\\3D Game (Responses) - Form Responses 2.csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Name",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl2playertime",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl2aitime",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl2idle",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl2playeraitime",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl3score",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl3aitime",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl3idle",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl4score",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl4aitime",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl4idle",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl5score",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl5totalshot",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl5left",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl5right",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "lvl5total",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 0,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.35,
+        "RuntimeInSeconds": 8.6739997863769531
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.35,
+        "RuntimeInSeconds": 5.8579998016357422
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.15,
+        "RuntimeInSeconds": 7.9479999542236328
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.45,
+        "RuntimeInSeconds": 3.6649999618530273
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.15,
+        "RuntimeInSeconds": 3.8340001106262207
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.35,
+        "RuntimeInSeconds": 15.147000312805176
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.5,
+        "RuntimeInSeconds": 3.1559998989105225
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.15,
+        "RuntimeInSeconds": 3.2030000686645508
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.35,
+        "RuntimeInSeconds": 6.6599998474121094
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.35,
+        "RuntimeInSeconds": 10.826000213623047
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.35,
+        "RuntimeInSeconds": 5.6989998817443848
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.45,
+        "RuntimeInSeconds": 15.569000244140625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.45,
+        "RuntimeInSeconds": 7.3000001907348633
+      }
+    ],
+    "Pipeline": "[{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl2playertime\"],\"Outputs\":[\"lvl2playertime\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl2aitime\"],\"Outputs\":[\"lvl2aitime\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl2idle\"],\"Outputs\":[\"lvl2idle\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl2playeraitime\"],\"Outputs\":[\"lvl2playeraitime\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl3score\"],\"Outputs\":[\"lvl3score\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl3aitime\"],\"Outputs\":[\"lvl3aitime\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl3idle\"],\"Outputs\":[\"lvl3idle\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl4score\"],\"Outputs\":[\"lvl4score\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl4aitime\"],\"Outputs\":[\"lvl4aitime\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl4idle\"],\"Outputs\":[\"lvl4idle\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl5score\"],\"Outputs\":[\"lvl5score\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl5totalshot\"],\"Outputs\":[\"lvl5totalshot\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl5left\"],\"Outputs\":[\"lvl5left\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl5right\"],\"Outputs\":[\"lvl5right\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"lvl5total\"],\"Outputs\":[\"lvl5total\"]},{\"EstimatorType\":\"Concatenate\",\"Inputs\":[\"lvl2playertime\",\"lvl2aitime\",\"lvl2idle\",\"lvl2playeraitime\",\"lvl3score\",\"lvl3aitime\",\"lvl3idle\",\"lvl4score\",\"lvl4aitime\",\"lvl4idle\",\"lvl5score\",\"lvl5totalshot\",\"lvl5left\",\"lvl5right\",\"lvl5total\"],\"Outputs\":[\"Features\"]},{\"EstimatorType\":\"MapValueToKey\",\"Inputs\":[\"Name\"],\"Outputs\":[\"Name\"]},{\"EstimatorType\":\"NormalizeMinMax\",\"Inputs\":[\"Features\"],\"Outputs\":[\"Features\"]},{\"LabelColumnName\":\"Name\",\"FeatureColumnName\":\"Features\",\"L1Regularization\":\"1\",\"L2Regularization\":\"1\",\"EstimatorType\":\"LbfgsMaximumEntropyMulti\",\"Inputs\":[\"Name\"],\"Outputs\":[\"Features\"]},{\"EstimatorType\":\"MapKeyToValue\",\"Inputs\":[\"PredictedLabel\"],\"Outputs\":[\"PredictedLabel\"]}]",
+    "MetricName": "MicroAccuracy"
+  },
+  "Type": "TrainingConfig",
+  "Version": 1
+}
