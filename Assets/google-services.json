@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "390639663160",
+    "firebase_url": "https://game-for-detecting-dementia-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "game-for-detecting-dementia",
+    "storage_bucket": "game-for-detecting-dementia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390639663160:android:4cebfebe6b11c99f45cecd",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.wavefunctioncollapsetesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390639663160-r8tjrv2rq9dog574cirpqrkcm9lqts4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ZR9k59D-VLR4yKQnoUVP7Pf7UhputZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390639663160-r8tjrv2rq9dog574cirpqrkcm9lqts4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
